@@ -5,7 +5,7 @@ from sys import argv
 x = argv
 def calc(x):
   result = pow(int(x[1]), 2)
-  print(result)
+  print(x[1] + "2 = " result)
 
 if __name__ == '__main__':
     calc(x)
