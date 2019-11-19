@@ -1,5 +1,5 @@
 # TestTask 5
-# Installation: get gitpython lib installed
+# Installation: get gitpython lib installed and download script in "mainscript" folder.
 # Usage: launch main script exe.py from local computer with 3 parameters:
 # 1) url of .git file on github
 # 2) github branch
@@ -10,3 +10,6 @@
 # 1)https://github.com/n0m1nd/test.git master 4
 # 2)https://github.com/n0m1nd/test.git br2 4
 # "master" and "br2" - github branches. Master calculates x**2 and br2 - x*2
+
+# Example of usage:
+# python exe.py https://github.com/n0m1nd/test.git br2 4
