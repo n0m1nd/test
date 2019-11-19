@@ -4,10 +4,8 @@
 from sys import argv
 x = argv
 def calc(x):
-  result = x**2
+  result = pow(int(x[1]), 2)
   return result
 
 if __name__ == '__main__':
-    # test1.py executed as script
-    # do something
-    calc()
+    calc(x)
